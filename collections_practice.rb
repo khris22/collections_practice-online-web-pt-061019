@@ -44,10 +44,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect{|item, index|}
-   if array[1] = item 
-      item
+  array.each_with_index.collect{|word, index|}
+   if array[1] = word
+      word
    else
-      item + "s"
+      word + "s"
    end
 end
