@@ -50,5 +50,5 @@ def add_s(array)
    else
       array.push(value)
    end
-   
+   array
 end
