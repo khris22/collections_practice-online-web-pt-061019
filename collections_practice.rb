@@ -36,7 +36,6 @@ end
 
 def find_a(array)
   array.select {|string| string.start_with?("a")}
-    # [1,2,3,4,5].select { |num|  num.even?  }
 end
 
 def sum_array(array)
