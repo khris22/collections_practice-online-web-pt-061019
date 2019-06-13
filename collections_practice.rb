@@ -37,8 +37,6 @@ end
 def find_a(array)
   array.select do |string|
     string.starts_with?("a")
-  end
-  array
 end
 
 def sum_array(array)
