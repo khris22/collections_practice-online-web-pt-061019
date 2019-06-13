@@ -35,13 +35,13 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.each do |string|
+  array.select do |string|
     string.starts_with?("a")
   array
 end
 
 def sum_array(array)
-
+  
 end
 
 def add_s(array)
