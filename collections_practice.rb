@@ -51,6 +51,6 @@ def add_s(array)
    else
       array_s.push(element)
    end
-   array
  end
+ array_s
 end
