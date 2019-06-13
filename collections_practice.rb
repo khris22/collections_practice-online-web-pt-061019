@@ -45,8 +45,8 @@ end
 
 def add_s(array)
   array.each_with_index.collect{|item, index|}
-   if item[2] = item 
-  
+   if array[2] = item 
+    
  
   
   
