@@ -44,11 +44,12 @@ def sum_array(array)
 end
 
 def add_s(array)
+  arrar_s = []
   array.each_with_index.collect{|element, index|}
    if index != 1
-      array.push(element + "s")
+      array_s.push(element + "s")
    else
-      array.push(value)
+      array_s.push(value)
    end
    array
 end
