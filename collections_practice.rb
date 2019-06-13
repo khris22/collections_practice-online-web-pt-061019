@@ -21,7 +21,7 @@ array.index[1], array.index[2] = array.index[2], array.index[1]
 end
 
 def reverse_array(array)
-  return array.sort.reverse
+  return array.reverse
 end
 
 def kesha_maker(array)
