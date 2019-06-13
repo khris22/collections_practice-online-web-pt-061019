@@ -45,9 +45,10 @@ end
 
 def add_s(array)
   array.each_with_index.collect{|element, index|}
-   if array[1] = element
-      element
+   if index != 1
+      array.push(element + "s")
    else
-      element + "s"
+      array.push(value)
    end
+   
 end
