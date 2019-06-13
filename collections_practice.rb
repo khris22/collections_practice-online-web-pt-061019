@@ -40,7 +40,7 @@ end
 
 def sum_array(array)
   sum = 0
-  array.inject{|sum, n| sum + n}
+  array.inject {|sum, n| sum + n}
 end
 
 def add_s(array)
