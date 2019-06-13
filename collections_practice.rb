@@ -50,4 +50,6 @@ def add_s(array)
    else
      item = item + "s"
    end
+    array
+  end
 end
