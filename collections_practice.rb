@@ -27,7 +27,7 @@ end
 
 def kesha_maker(array)
   array.each do |string|
-    string.slice(3) 
+    string(3) = 
 end
 
 def find_a(array)
