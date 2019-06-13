@@ -49,7 +49,7 @@ def add_s(array)
    if index != 1
       array_s.push(element + "s")
    else
-      array_s.push(value)
+      array_s.push(element)
    end
    array
 end
