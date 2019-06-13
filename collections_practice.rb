@@ -26,11 +26,14 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-
+  array.each do |string|
+    string.e
 end
 
 def find_a(array)
-  array.starts_with?("a")
+  array.each do |string|
+    string.starts_with?("a")
+  array
 end
 
 def sum_array(array)
