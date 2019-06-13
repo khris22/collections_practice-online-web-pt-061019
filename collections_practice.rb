@@ -52,4 +52,5 @@ def add_s(array)
       array_s.push(element)
    end
    array
+ end
 end
