@@ -46,8 +46,5 @@ end
 def add_s(array)
   array.each_with_index.collect{|item, index|}
     item = item + "s"
-  
-    
-  # .each_with_index { |item, index|
-  # hash[item] = index
+    item[2] =  item.delete("s")
 end
