@@ -47,7 +47,8 @@ end
 
 def add_s(array)
   array.each_with_index{|item, index|}
-    item.
+    item = item + "s"
+    
   # .each_with_index { |item, index|
   # hash[item] = index
 end
